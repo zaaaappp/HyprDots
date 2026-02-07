@@ -77,7 +77,7 @@ bash install.sh
 cd ..
 rm -rf sf-fonts
 sudo pacman -Sy
-sudo pacman -S --noconfirm pciutils man pavucontrol grim mpv slurp unzip ncdu curl noto-fonts-emoji zsh-autosuggestions sudo coreutils which pipewire pipewire-pulse wireplumber pamixer zsh-syntax-highlighting gparted zsh lxappearance sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland xdg-utils neovim noto-fonts base-devel nerd-fonts lsd fastfetch swaync thunar cava btop bc hyprpicker
+sudo pacman -S --noconfirm pciutils man pavucontrol grim mpv slurp unzip jq ncdu curl noto-fonts-emoji zsh-autosuggestions sudo coreutils which pipewire pipewire-pulse wireplumber pamixer zsh-syntax-highlighting gparted zsh lxappearance sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland xdg-utils neovim noto-fonts base-devel nerd-fonts lsd fastfetch swaync thunar cava btop bc hyprpicker
 gpu_info=$(lspci | grep -E "VGA|3D")
 if echo "$gpu_info" | grep -qi "NVIDIA"; then
     toilet -f mono12 DRIVERS

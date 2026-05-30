@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RED='\e[31m' # i used chatgpt for this im not smart enough
+RED='\e[31m' # i used ai for this.
 GREEN='\033[38;5;46m'
 YELLOW='\e[33m'
 BLUE='\e[94m'
